@@ -8,7 +8,7 @@ Scripts to extract the assets from AsoBD BD-PG games
 
 ## Tested games
 
-- AsoBD Doki Doki Trial (VABD-002)
+- AsoBD BD-Game DokiDoki-Trial (VABD-002)
 
 ## Supported file types
 
