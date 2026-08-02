@@ -1,4 +1,7 @@
 # BD-Alien-tools
+
+![BD-Alien](./readmeimage/ita_03k.png)
+
 Scripts to extract the assets from AsoBD BD-PG games
 
 **Disclaimer**: These scripts were made with MiniMax-M3 because no one in their right mind would make RE scripts for obscure blu-ray VNs, hence, AI :thumbsup:
