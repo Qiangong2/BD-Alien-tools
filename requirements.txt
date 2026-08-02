@@ -1,0 +1,9 @@
+# Pinned versions were captured on the development machine.
+# Lower bounds are safe; upper bounds aren't strictly required but
+# the scripts were tested with these specific versions.
+#
+# Python: 3.10+ (uses PEP 604 union types, structural pattern matching
+# in places, and f-strings. Older 3.x may also work but is untested.)
+
+numpy>=2.0,<3.0      # extract_assets.py uses np.frombuffer + .astype('<i2', copy=False)
+                     # to byte-swap big-endian BCLK samples. No scipy required.
