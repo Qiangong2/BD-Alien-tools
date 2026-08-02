@@ -17,6 +17,9 @@ Scripts to extract the assets from AsoBD BD-PG games
 
 **NOTE**: You'll need the entire AUXDATA folder from your AsoBD BD-PG (obtainable from your local Yahoo Auctions Japan representative).
 
+1) Start by downloading the repo. You'll need the entire repo as the xor bins are included.
+2) Install numpy in a venv or conda environment
+3) Choose your command:
 ```bash
 # 1. Extract everything: images, font, audio, decrypted TTX bytecode
 python3 extract_assets.py <path-to-AUXDATA> --out <outpath>
@@ -28,7 +31,7 @@ python3 extract_text.py <outpath>/ttx --out <outpath>/text
 python extract_dialogue.py <ttx_dir> <koe_dir> <wav_dir> --no-csv --json
 ```
 
-**NOTE**: Step 2 is only needed if you want to split the text between narration and dialog.
+**NOTE**: Command 2 is only needed if you want to split the text between narration and dialog.
 
 ## What the scripts do (the techy stuff)
 
